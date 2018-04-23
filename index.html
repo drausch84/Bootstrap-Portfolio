@@ -1,13 +1,18 @@
 <!Doctype html>
 <html lang = "en-US">
     <head>
+ <meta charset = "UTF-8">
+ <title>About Me | David Rausch</title>     
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    </head>
+ <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+ <link rel = "stylesheet" href = "style.css"> 
+</head>
 
     <body>
+      <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">David Rausch</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,11 +20,126 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Portfolio</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link active" href="index.html">About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
               </div>
             </div>
           </nav>
+        <div class = "container">
+          <!-- 1st Row of Webpage structure -->
+          <div class = "row">
+            <!-- 1/4 column of 1st row -->
+            <div class = "col-lg-3">
+              <h1>About Me</h1>
+            </div>
+            <!-- 2/4 column of 1st row -->
+            <div class = "col-lg-3">
+              
+            </div>
+            <!-- 3/4 column of 1st row -->
+            <div class = "col-lg-3">
+
+            </div>
+            <!-- 4/4 column of 1st row -->
+            <div class = "col-lg-3">
+                
+            </div>
+          </div>
+          <!-- 2nd row of Webpage structure -->
+          <div class ="row">
+            <!-- 1/3 column of 2nd row --> 
+            <div class = "col-lg-4">
+              <img src="https://scontent.fapa1-1.fna.fbcdn.net/v/t1.0-9/1480606_1087924874591207_697974514632851325_n.jpg?_nc_cat=0&oh=d1e8b6ded3fa402afed4f49b73bb0f78&oe=5B6FC95E" class="img-fluid img-thumbnail" alt="Responsive image">
+            </div>  
+            <!-- 2/3 column of 2nd row -->
+            <div class = "col-lg-4">
+              <p>Hello, my name is David Rausch.  I'm an aspiring software developer who is currently enrolled in a coding boot camp through the University of Denver
+                I am also currently a student at Regis University and am about 16 months away from graduating with a Bachelor of Science in Computer Science.
+                My previous work experience includes being a C-5 crew chief in the United States Air Force, as well as being a personal trainer, and many jobs within the customer
+                service industry.</p>  
+                <p>I don't have much work experience in the tech industry, aside from 2 internships, but find that I have the creative mind and discipline to do well.
+                This is my personal portfolio site where I will share all of my projects I have worked on, in the hopes to attract the eye of potential employeers.
+              </p>
+            </div>
+            <!-- 3/3 column of 2nd row -->
+            <div class = "col-lg-4">
+                <h3>Connect With Me</h3>
+                <!-- subrow within 2nd row -->
+               
+                <div class = "row">
+                  <!-- 1st subcolumn -->
+                  <div class = "col-sm-3">
+                      <a href="https://github.com/drausch84" target = "_blank"><img src="data:image/png;base64,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" class = "img-fluid" width="80" height="80"></a> 
+                  </div>
+                  
+                  <!-- 2nd subcolumn -->
+                  <div class = "col-sm-3">
+                      <a href ="https://www.linkedin.com/in/david-rausch-52444878/" target = "_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-256.png" class = "img-fluid" width= "80" height="80"></a>
+                  </div>
+                  
+                  <!-- 3rd subcolumn -->
+                  <div class = "col-sm-3">
+                      <a href = "https://stackexchange.com/users/12708831/drausch" target = "_blank"><img src="https://i.stack.imgur.com/TsGSQ.png" class = "img-fluid" width="80" height = "80"></a>
+                  </div>
+  
+              
+                </div>
+            </div>
+          </div>
+          <!-- 3rd row of Webpage Structure -->
+          <div class = "row">
+            <!-- 1/4 column of 3rd Row -->
+            <div class = "col-md-3">
+
+            </div>
+            <!-- 2/4 column of 3rd row -->
+            <div class = "col-md-3">
+
+            </div>
+            <!-- 3/4 column of 3rd row -->
+            <div class = "col-md-3">
+
+            </div>
+            <!-- 4/4 column of 4th row -->
+            <div class = "col-md-3">
+              
+            </div>
+          </div>
+        </div>
     </body>
-</html>
+                      
+    <!--Footer-->
+<footer class="page-footer font-small blue pt-4 mt-4">
+
+  <!--Footer Links-->
+  <div class="container-fluid text-center text-md-left">
+      <div class="row">
+          <div class="col-md-6">
+              <h5 class="text-uppercase">Links</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <a href="index.html">About Me</a>
+                  </li>
+                  <li>
+                      <a href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li>
+                      <a href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <!--/.Second column-->
+      </div>
+  </div>
+ 
+
+ 
+  <div class="footer-copyright py-3 text-center">
+      © 2018 Copyright: David Rausch
+  </div>
+  
+
+</footer>
+
+                    

@@ -1,0 +1,80 @@
+.navbar-brand{
+    font-family: 'Rokkitt', serif;
+}
+a{
+    font-family: 'Rokkitt', serif;
+    color:ghostwhite;
+}
+body{
+    background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px
+}
+h1{
+    font-family: 'Rokkitt', serif;
+    color: ghostwhite;
+    margin:20px;
+    text-decoration:underline;
+    text-decoration-color: ghostwhite;
+}
+h2{
+    font-family: 'Rokkitt', serif;
+    color: dimgray;
+    margin: 40px;
+    text-decoration:underline;
+    text-decoration-color:dimgray;
+    font-size:40px;
+}
+h3{
+    font-family: 'Rokkitt', serif;
+    color: ghostwhite;
+    margin:20px;
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
+}
+h4{
+    font-family: 'Rokkitt', serif;
+    color: ghostwhite;
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
+    margin:30px;
+}
+img {
+    height: 150;
+    width: 150;
+}
+p{
+    background:ghostwhite;
+    color:dimgray;
+    border-style:solid;
+    border-width:thick;
+    text-align:center;
+    font-family: 'Rokkitt', serif;
+    font-size:18px;
+}
+.page-footer{
+    background:#3E4551;
+    color:ghostwhite;
+    font-family: 'Rokkitt', serif;
+}
+.container-2{
+    background:ghostwhite;
+    margin:100px 350px;
+    width:50%;
+    padding:30px;
+    padding-bottom:80px;
+}
+.form-group{
+    font-family: 'Rokkitt', serif;
+    color:dimgray;
+    font-size:18px;
+}
+.container-3{
+    background:ghostwhite;
+    margin:75px 200px;
+    width: 75%;
+    padding: 30px;
+    padding-bottom: 80px;
+}
