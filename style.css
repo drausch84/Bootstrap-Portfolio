@@ -53,6 +53,10 @@ h5{
     text-decoration-color:dimgray;
     font-size:40px;
 }
+h6{
+    font-family: 'Rokkitt', serif;
+    color:ghostwhite;
+}
 img {
     height: 150;
     width: 150;
